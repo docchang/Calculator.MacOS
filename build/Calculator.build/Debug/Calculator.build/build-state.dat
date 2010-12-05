@@ -1,488 +1,0 @@
-TCalculator
-v7
-r0
-t313211325.603280
-cCheck dependencies
-cProcessInfoPlistFile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/Info.plist Calculator-Info.plist
-cCopyStringsFile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/English.lproj/MainMenu.xib
-cProcessPCH /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-aqlgexcczhguyicmpcgbvfsfcuyr/Calculator_Prefix.pch.gch Calculator_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/main.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorAppDelegate.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorWindowController.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorWindowController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorBrain.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../Calculator/Classes/CalculatorBrain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/MacOS/Calculator normal x86_64
-cTouch /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004CAA740B00000000000000EE
-t1286239243
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C23AA0400000000000013E6
-t1277405700
-s5094
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004CB3F2FA000000000000A5E0
-t1286861562
-s42464
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../../Calculator/Classes/CalculatorBrain.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../../Calculator/Classes/CalculatorBrain.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../Calculator/Classes/CalculatorBrain.h
-c000000004CF4D72C00000000000002EF
-t1291114284
-s751
-i<Foundation/Foundation.h>
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../Calculator/Classes/CalculatorBrain.m
-c000000004CF869020000000000000A7D
-t1291348226
-s2685
-i"CalculatorBrain.h"
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/../../Calculator/Classes/CalculatorBrain.m
-c000000004CF869020000000000000A7D
-t1291348226
-s2685
-i"CalculatorBrain.h"
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorAppDelegate.h
-c000000004CFAC4AA0000000000000145
-t1291502762
-s325
-i<Cocoa/Cocoa.h>
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorAppDelegate.m
-c000000004CFAC4AA000000000000017D
-t1291502762
-s381
-i"CalculatorAppDelegate.h"
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorWindowController.h
-c000000004CFAFF9300000000000002BF
-t1291517843
-s703
-i<Cocoa/Cocoa.h>
-i"CalculatorBrain.h"
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorWindowController.m
-c000000004CFB00BD0000000000000A1A
-t1291518141
-s2586
-i"CalculatorWindowController.h"
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/Calculator_Prefix.pch
-c000000004CFAC4AA0000000000000097
-t1291502762
-s151
-i<Cocoa/Cocoa.h>
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/English.lproj/InfoPlist.strings
-c000000004CFAC4AA000000000000002D
-t1291502762
-s45
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/English.lproj/MainMenu.xib
-c000000004CFAFF27000000000003C205
-t1291517735
-s246277
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/Calculator.LinkFileList
-c000000004CFACEBD000000000000026A
-t1291505341
-s618
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorAppDelegate.o
-t1291505345
-s21232
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorBrain.o
-t1291505345
-s21668
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorWindowController.o
-t1291518142
-s25756
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/main.o
-t1291505345
-s5048
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app
-t1291518142
-s102
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/Info.plist
-t1291505341
-s895
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/MacOS/Calculator
-t1291518142
-s28976
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/PkgInfo
-t1291505341
-s8
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1291505341
-s92
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/Resources/English.lproj/MainMenu.nib
-t1291517744
-s46723
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/main.m
-c000000004CFAC4AA0000000000000101
-t1291502762
-s257
-i<Cocoa/Cocoa.h>
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorAppDelegate.h
-c000000004CFB01EA0000000000000145
-t1291518442
-s325
-i<Cocoa/Cocoa.h>
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorAppDelegate.m
-c000000004CFB0138000000000000017D
-t1291518264
-s381
-i"CalculatorAppDelegate.h"
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorWindowController.h
-c000000004CFB013800000000000002BF
-t1291518264
-s703
-i<Cocoa/Cocoa.h>
-i"CalculatorBrain.h"
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorWindowController.m
-c000000004CFB02190000000000000A1A
-t1291518489
-s2586
-i"CalculatorWindowController.h"
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator_Prefix.pch
-c000000004CFB01380000000000000097
-t1291518264
-s151
-i<Cocoa/Cocoa.h>
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/English.lproj/InfoPlist.strings
-c000000004CFB0138000000000000002D
-t1291518264
-s45
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/English.lproj/MainMenu.xib
-c000000004CFB0138000000000003C1FC
-t1291518264
-s246268
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/Calculator.LinkFileList
-c000000004CFB018B000000000000023E
-t1291518347
-s574
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorAppDelegate.o
-t1291518443
-s21208
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorBrain.o
-t1291518443
-s21636
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorWindowController.o
-t1291518524
-s25724
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/main.o
-t1291518350
-s5024
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app
-t1291518524
-s102
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/Info.plist
-t1291518265
-s895
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/MacOS/Calculator
-t1291518524
-s28888
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/PkgInfo
-t1291518265
-s8
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1291518265
-s92
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/Resources/English.lproj/MainMenu.nib
-t1291518265
-s46723
-
-N/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/main.m
-c000000004CFB01390000000000000101
-t1291518265
-s257
-i<Cocoa/Cocoa.h>
-
-N/Users/docchang/Documents/iOS/Projects/Calculator/Classes/CalculatorBrain.h
-c000000004CF4D72C00000000000002EF
-t1291114284
-s751
-i<Foundation/Foundation.h>
-
-N/var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-aqlgexcczhguyicmpcgbvfsfcuyr/Calculator_Prefix.pch.gch
-t1291518350
-s54306576
-
-N/var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-bmgqhuvzzvysbbfrzurspszwarkv/Calculator_Prefix.pch.gch
-t1291505344
-s54306576
-
-NCalculator-Info.plist
-c000000004CFB013800000000000003EA
-t1291518264
-s1002
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies313211325#313211325#0(0"0(0#1#0"8642326240#0"0#
-
-CCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorAppDelegate.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s313198145.094596
-e313198145.301041
-r1
-xCompileC
-xbuild/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorAppDelegate.o
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorAppDelegate.m313198145#313198145#0(0"0(0#0#90"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorAppDelegate.m8646229056#1852"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-generated-files.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-own-target-headers.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-project-headers.hmap -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/include -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/DerivedSources/x86_64 -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/DerivedSources -include /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-bmgqhuvzzvysbbfrzurspszwarkv/Calculator_Prefix.pch -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorAppDelegate.m -o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorAppDelegate.o0#
-
-CCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorAppDelegate.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s313211243.185618
-e313211243.339147
-r1
-xCompileC
-xbuild/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorAppDelegate.o
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorAppDelegate.m313211243#313211243#0(0"0(0#0#79"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorAppDelegate.m8654299232#1731"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-generated-files.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-own-target-headers.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-project-headers.hmap -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/include -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/DerivedSources/x86_64 -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/DerivedSources -include /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-aqlgexcczhguyicmpcgbvfsfcuyr/Calculator_Prefix.pch -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorAppDelegate.m -o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorAppDelegate.o0#
-
-CCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorBrain.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../../Calculator/Classes/CalculatorBrain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s313211150.826134
-e313211150.834961
-r0
-xCompileC
-xbuild/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorBrain.o
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../../Calculator/Classes/CalculatorBrain.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../../Calculator/Classes/CalculatorBrain.m: No such file or directory
-oi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c' after last input file has no effect
-oi686-apple-darwin10-gcc-4.2.1: no input files
-lSLF07#2@106"Compile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../../Calculator/Classes/CalculatorBrain.m313211150#313211150#0(355"i686-apple-darwin10-gcc-4.2.1: /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../../Calculator/Classes/CalculatorBrain.m: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/usr/bin/gcc-4.2 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1313211150#18446744073709551615#0#0(1@0"0(0#0#98"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../../Calculator/Classes/CalculatorBrain.m8662821664#1744"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-generated-files.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-own-target-headers.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-project-headers.hmap -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/include -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/DerivedSources/x86_64 -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/DerivedSources -include /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-aqlgexcczhguyicmpcgbvfsfcuyr/Calculator_Prefix.pch -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../../Calculator/Classes/CalculatorBrain.m -o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorBrain.o1#
-
-CCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorBrain.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../Calculator/Classes/CalculatorBrain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s313211243.187787
-e313211243.426932
-r1
-xCompileC
-xbuild/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorBrain.o
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../Calculator/Classes/CalculatorBrain.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../Calculator/Classes/CalculatorBrain.m313211243#313211243#0(0"0(0#0#95"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../Calculator/Classes/CalculatorBrain.m8650444896#1741"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-generated-files.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-own-target-headers.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-project-headers.hmap -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/include -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/DerivedSources/x86_64 -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/DerivedSources -include /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-aqlgexcczhguyicmpcgbvfsfcuyr/Calculator_Prefix.pch -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/../Calculator/Classes/CalculatorBrain.m -o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorBrain.o0#
-
-CCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorBrain.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/../../Calculator/Classes/CalculatorBrain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s313198145.096749
-e313198145.357111
-r1
-xCompileC
-xbuild/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorBrain.o
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/../../Calculator/Classes/CalculatorBrain.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@117"Compile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/../../Calculator/Classes/CalculatorBrain.m313198145#313198145#0(0"0(0#0#109"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/../../Calculator/Classes/CalculatorBrain.m8661481152#1865"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-generated-files.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-own-target-headers.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-project-headers.hmap -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/include -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/DerivedSources/x86_64 -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/DerivedSources -include /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-bmgqhuvzzvysbbfrzurspszwarkv/Calculator_Prefix.pch -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/../../Calculator/Classes/CalculatorBrain.m -o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorBrain.o0#
-
-CCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorWindowController.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorWindowController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s313210942.325098
-e313210942.469148
-r1
-xCompileC
-xbuild/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorWindowController.o
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorWindowController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorWindowController.m313210942#313210942#0(0"0(0#0#95"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorWindowController.m8645741600#1862"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-generated-files.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-own-target-headers.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-project-headers.hmap -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/include -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/DerivedSources/x86_64 -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/DerivedSources -include /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-bmgqhuvzzvysbbfrzurspszwarkv/Calculator_Prefix.pch -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/CalculatorWindowController.m -o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorWindowController.o0#
-
-CCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorWindowController.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorWindowController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s313211324.290467
-e313211324.437548
-r1
-xCompileC
-xbuild/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorWindowController.o
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorWindowController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorWindowController.m313211324#313211324#0(0"0(0#0#84"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorWindowController.m8604172096#1741"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-generated-files.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-own-target-headers.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-project-headers.hmap -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/include -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/DerivedSources/x86_64 -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/DerivedSources -include /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-aqlgexcczhguyicmpcgbvfsfcuyr/Calculator_Prefix.pch -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/CalculatorWindowController.m -o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/CalculatorWindowController.o0#
-
-CCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/main.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s313198145.093292
-e313198145.297456
-r1
-xCompileC
-xbuild/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/main.o
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/main.m313198145#313198145#0(0"0(0#0#73"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/main.m8656641728#1818"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-generated-files.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-own-target-headers.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-project-headers.hmap -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/include -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/DerivedSources/x86_64 -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/DerivedSources -include /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-bmgqhuvzzvysbbfrzurspszwarkv/Calculator_Prefix.pch -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/main.m -o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/main.o0#
-
-CCompileC build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/main.o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s313211150.821440
-e313211150.987808
-r1
-xCompileC
-xbuild/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/main.o
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/main.m313211150#313211150#0(0"0(0#0#62"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/main.m8675458176#1697"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-generated-files.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-own-target-headers.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-project-headers.hmap -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/include -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/DerivedSources/x86_64 -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/DerivedSources -include /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-aqlgexcczhguyicmpcgbvfsfcuyr/Calculator_Prefix.pch -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/main.m -o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/main.o0#
-
-CCompileXIB /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/English.lproj/MainMenu.xib
-s313210543.770862
-e313210544.119827
-r1
-xCompileXIB
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib313210543#313210544#0(0"0(0#0#93"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/English.lproj/MainMenu.xib8641624864#451"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/Resources/English.lproj/MainMenu.nib /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
-
-CCompileXIB /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/English.lproj/MainMenu.xib
-r0
-
-CCopyStringsFile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s313198141.217726
-e313198141.557713
-r1
-xCopyStringsFile
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings313198141#313198141#0(0"0(0#0#98"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/English.lproj/InfoPlist.strings8651294528#424"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/Resources/English.lproj0#
-
-CCopyStringsFile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-r0
-
-CLd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/MacOS/Calculator normal x86_64
-s313210942.469274
-e313210942.508038
-r1
-xLd
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/MacOS/Calculator
-xnormal
-xx86_64
-lSLF07#2@124"Link /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/MacOS/Calculator313210942#313210942#0(0"0(0#0#0"8642816352#697"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug -filelist /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/Calculator.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/MacOS/Calculator0#
-
-CLd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/MacOS/Calculator normal x86_64
-s313211324.437644
-e313211324.477086
-r1
-xLd
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/MacOS/Calculator
-xnormal
-xx86_64
-lSLF07#2@113"Link /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/MacOS/Calculator313211324#313211324#0(0"0(0#0#0"8602917792#642"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug -filelist /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Objects-normal/x86_64/Calculator.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/MacOS/Calculator0#
-
-CProcessInfoPlistFile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/Info.plist Calculator-Info.plist
-s313198141.213318
-e313198141.217623
-r1
-xProcessInfoPlistFile
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/Info.plist
-xCalculator-Info.plist
-lSLF07#2@29"Process Calculator-Info.plist313198141#313198141#0(0"0(0#0#88"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/Calculator-Info.plist8652833664#403"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator    builtin-infoPlistUtility Calculator-Info.plist -genpkginfo /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app/Contents/Info.plist0#
-
-CProcessInfoPlistFile /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app/Contents/Info.plist Calculator-Info.plist
-r0
-
-CProcessPCH /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-aqlgexcczhguyicmpcgbvfsfcuyr/Calculator_Prefix.pch.gch Calculator_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s313211147.759788
-e313211150.821210
-r1
-xProcessPCH
-x/var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-aqlgexcczhguyicmpcgbvfsfcuyr/Calculator_Prefix.pch.gch
-xCalculator_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile Calculator_Prefix.pch313211147#313211150#0(0"0(0#0#77"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator_Prefix.pch8670738272#1583"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-generated-files.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-own-target-headers.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/Calculator-project-headers.hmap -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/include -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/DerivedSources/x86_64 -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Calculator.build/Debug/Calculator.build/DerivedSources -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator_Prefix.pch -o /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-aqlgexcczhguyicmpcgbvfsfcuyr/Calculator_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-bmgqhuvzzvysbbfrzurspszwarkv/Calculator_Prefix.pch.gch Calculator_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s313198141.601561
-e313198145.093146
-r1
-xProcessPCH
-x/var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-bmgqhuvzzvysbbfrzurspszwarkv/Calculator_Prefix.pch.gch
-xCalculator_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile Calculator_Prefix.pch313198141#313198145#0(0"0(0#0#88"/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/Calculator_Prefix.pch8657119680#1693"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-generated-files.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-own-target-headers.hmap -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-all-target-headers.hmap -iquote /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/Calculator-project-headers.hmap -F/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/include -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/DerivedSources/x86_64 -I/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Calculator.build/Debug/Calculator.build/DerivedSources -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/Calculator_Prefix.pch -o /var/folders/1L/1LugDwAFHE4JfNaNos0eVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calculator_Prefix-bmgqhuvzzvysbbfrzurspszwarkv/Calculator_Prefix.pch.gch0#
-
-CTouch /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app
-s313210942.508142
-e313210942.510596
-r1
-xTouch
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app
-lSLF07#2@99"Touch /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app313210942#313210942#0(0"0(0#0#0"8666861920#190"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator    /usr/bin/touch -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/Calculator/build/Debug/Calculator.app0#
-
-CTouch /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app
-s313211324.477217
-e313211324.479683
-r1
-xTouch
-x/Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app
-lSLF07#2@88"Touch /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app313211324#313211324#0(0"0(0#0#0"8620998976#168"    cd /Users/docchang/Documents/iOS/Projects/Calculator.MacOS    /usr/bin/touch -c /Users/docchang/Documents/iOS/Projects/Calculator.MacOS/build/Debug/Calculator.app0#
-
