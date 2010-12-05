@@ -31,8 +31,8 @@
 		8D1107320486CEB800E47090 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82486B512AAFE1F004321DC /* CalculatorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorWindowController.h; sourceTree = "<group>"; };
 		C82486B612AAFE1F004321DC /* CalculatorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorWindowController.m; sourceTree = "<group>"; };
-		C82486BB12AB037A004321DC /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalculatorBrain.h; path = ../Calculator/Classes/CalculatorBrain.h; sourceTree = SOURCE_ROOT; };
-		C82486BC12AB037A004321DC /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalculatorBrain.m; path = ../Calculator/Classes/CalculatorBrain.m; sourceTree = SOURCE_ROOT; };
+		C82486BC12AB037A004321DC /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalculatorBrain.m; path = ../Calculator.iOS/Classes/CalculatorBrain.m; sourceTree = SOURCE_ROOT; };
+		C824885212AB3FD0004321DC /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalculatorBrain.h; path = ../Calculator.iOS/Classes/CalculatorBrain.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C82486BB12AB037A004321DC /* CalculatorBrain.h */,
+				C824885212AB3FD0004321DC /* CalculatorBrain.h */,
 				C82486BC12AB037A004321DC /* CalculatorBrain.m */,
 				256AC3D80F4B6AC300CF3369 /* CalculatorAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* CalculatorAppDelegate.m */,

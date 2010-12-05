@@ -1,6 +1,6 @@
 Next steps:
-  mkdir Calculator-MacOS
-  cd Calculator-MacOS
+  mkdir Calculator.MacOS
+  cd Calculator.MacOS
   git init
   touch README
   git add README
