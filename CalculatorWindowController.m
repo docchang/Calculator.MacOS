@@ -8,9 +8,21 @@
 
 #import "CalculatorWindowController.h"
 
+//prviate properties
+@interface CalculatorWindowController()
+@property(readonly) CalculatorBrain *brain;
+@end
+
 @implementation CalculatorWindowController
 
-@synthesize brain;
+//Singleton and lazy create
+- (CalculatorBrain *)brain {
+	if (!brain) {
+		brain = [[CalculatorBrain alloc] init];
+		brain.radian = YES;
+	}
+	return brain;
+}
 
 - (IBAction)digitPressed:(NSButton *)sender{
 	NSString *digit = sender.title; //	[display setStringValue:digit];		

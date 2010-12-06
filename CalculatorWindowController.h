@@ -10,16 +10,15 @@
 #import "CalculatorBrain.h"
 
 @interface CalculatorWindowController : NSWindowController {
-	IBOutlet CalculatorBrain* brain;
 	
 	IBOutlet NSTextField *display;
 	IBOutlet NSTextField *displaywaitingOperation;
 	IBOutlet NSTextField *displayMemory;
 
+@private
+	IBOutlet CalculatorBrain* brain;
 	BOOL userIsInTheMiddleOfTypingANumber;
 }
-
-@property(readonly) CalculatorBrain *brain;
 
 - (IBAction)digitPressed:(NSButton *)sender;		//digits
 - (IBAction)operationPressed:(NSButton *)sender;	//operations
